@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://montecode.me/</loc>
+  <lastmod>2014-08-21T09:00:18+00:00</lastmod>
+</url>
+<url>
+  <loc>http://montecode.me/services.html</loc>
+  <lastmod>2014-08-21T10:54:02+00:00</lastmod>
+</url>
+<url>
+  <loc>http://montecode.me/projects.html</loc>
+  <lastmod>2014-08-11T17:19:46+00:00</lastmod>
+</url>
+<url>
+  <loc>http://montecode.me/about.html</loc>
+  <lastmod>2014-08-11T17:19:43+00:00</lastmod>
+</url>
+<url>
+  <loc>http://montecode.me/contact.php</loc>
+</url>
+<url>
+  <loc>http://montecode.me/blog/index.php</loc>
+</url>
+<url>
+  <loc>http://montecode.me/index_en.html</loc>
+  <lastmod>2014-08-15T17:18:00+00:00</lastmod>
+</url>
+<url>
+  <loc>http://montecode.me/index.html</loc>
+  <lastmod>2014-08-21T09:00:18+00:00</lastmod>
+</url>
+<url>
+  <loc>http://montecode.me/services_en.html</loc>
+  <lastmod>2014-08-15T17:18:01+00:00</lastmod>
+</url>
+<url>
+  <loc>http://montecode.me/projects_en.html</loc>
+  <lastmod>2014-08-11T17:19:47+00:00</lastmod>
+</url>
+<url>
+  <loc>http://montecode.me/about_en.html</loc>
+  <lastmod>2014-08-11T17:32:18+00:00</lastmod>
+</url>
+<url>
+  <loc>http://montecode.me/contact_en.php</loc>
+</url>
+<url>
+  <loc>http://montecode.me/blog/post_view.php?id=9</loc>
+</url>
+<url>
+  <loc>http://montecode.me/blog/index.php?tag=announcments</loc>
+</url>
+<url>
+  <loc>http://montecode.me/blog/index.php?tag=android</loc>
+</url>
+</urlset>

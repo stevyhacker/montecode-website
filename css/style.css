@@ -1,0 +1,1276 @@
+html, body {
+	margin:0;
+	padding:0;
+	width: 100%;
+	position: relative;
+	height: auto;
+	min-height: 60%;
+	background: url('../img/textura_aco4.jpg');
+}
+
+::selection {
+	background: #ec2125;
+}
+
+::-moz-selection {
+	background: #ec2125;
+}
+
+img:selection {
+	color: red;
+}
+
+#wrapper {
+	max-height: 1000px;
+	min-height: 60%;
+	height: auto;
+	width: 100%;
+	position:relative;
+	top: 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+
+*{
+	font-family: 'Roboto';
+}
+
+/*Header*/
+
+header{
+	height: 100px;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+	background-color: #231F20;
+	margin-top: -100px;
+}
+
+header nav{
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ul li{
+	float: left;
+	list-style: none;
+}
+ul li a {
+	height: 93px;
+	line-height: 70px;
+	text-decoration: none;
+	margin-left: 50px;
+	text-transform: uppercase;
+	font-size: 18px;
+	color: white;
+	display:inline-block;
+	height: 30px;
+	transition: 0.4s;
+}
+ul li a:hover {
+	color: red;
+	transition: 0.4s;
+}
+
+#logo {
+	text-indent: -9999px;
+	background: url('../img/montecode.png') no-repeat;
+	height: 80px;
+	width: 350px;
+	margin-left: 0;
+	margin-top: 0;
+}
+
+#pull {
+	display: none;
+}
+
+#pull img {
+	height: 40px;
+}
+
+#responsive_menu_icon {
+	height: 30px !important;
+	margin-bottom: 3px;
+}
+
+/* Language translate */
+
+.lang {
+	position: relative;
+	text-indent: -9999px;
+	left: 0px;
+	top: 10px;
+	width: 64px;
+	height: 64px;
+}
+
+#eng {
+	background: url('../img/eng_flag.png') no-repeat;
+}
+
+#mne {
+	background: url('../img/mne_flag.png') no-repeat;
+	margin-left: 0;
+}
+
+/* Main content */
+
+#main {
+	width: 100%;
+	height: auto;
+	min-height: 60%;
+	top: 95px;
+	text-align: left;
+	margin-top: 100px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#center_main{
+	max-width: 1400px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 800px;
+	max-height: 60%;
+}
+
+#services_center_main, #kontakt_center_main {
+	max-width: 1400px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.slider_homepage {
+	height: 800px;
+	width: 100%;
+}
+
+.heading_tekst {
+	font-size: 44px;
+	margin-left: 3.9%;
+	margin-bottom: 0;
+	font-weight: 100;
+}
+
+#heading {
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#services_first_heading {
+	width: 90%;
+	max-width: 760px;
+	margin-bottom: 50px;
+}
+
+#services_heading {
+	height: 50px;
+	width: 750px;
+	max-width: 100%;
+}
+
+#services_heading_about {
+	height: 50px;
+	width: 750px;
+	max-width: 100%;
+	margin: 0 auto;
+	font-size: 30px;
+}
+
+#index_heading_tekst {
+	margin-left: 9.9%;
+}
+
+#kontakt_heading_tekst, #kontakt_heading_tekst_dva {
+	text-align: center;
+}
+
+.slike_tekst, .services_tekst {
+	float: left;
+	width: 25%;
+	margin-bottom: 30px;
+	margin-left: 6.1%;
+}
+
+.services_tekst {
+	margin-left: 4%;
+	width: 28%;
+	padding-right: 0 !important;
+}
+
+#wrapping_services_tekst {
+	height: 320px;
+}
+
+.homepage_tekst {
+	margin-top: 20px;
+	max-width: 400px;
+	width: 95%;
+	position: relative;
+	top: -670px;
+	left: 900px;
+}
+
+#myGallery {
+	position: relative;
+	height: 700px;
+	width: 100%;
+	max-width: 700px;
+}
+
+#myGallery img {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+#myGallery img.active {
+	display: block;
+}
+
+#mac_img {
+	margin-left: 50px;
+	margin-right: 10px;
+	width: 100%;
+	max-width: 720px;
+}
+
+#telefon_tablet {
+	width: 100%;
+	max-width: 700px;
+	margin-top: 30px;
+	margin-left: 25px;
+}
+
+#web_design_slika {
+	padding-right: 66.2%;
+}
+
+#web_dev_slika {
+	padding-right: 21.7%;
+}
+
+#mobile_slika {
+	padding-right: 47.5%;
+}
+
+#hire_us {
+	text-decoration: none;
+	color: white;
+	border-radius: 5px;
+	background: url('../img/hire_us_strelica.png');
+	padding: 14px 32px 12px 12px;
+	background-repeat: no-repeat;
+	background-position: center right;
+	font-size: 24px;
+	background-color: #ec2125;
+}
+
+#hire_us:hover {
+	opacity: 0.9;
+}
+
+.slike_tekst {
+	min-height: 238px;
+	margin-left: 8.1%;
+}
+
+.about_slike {
+	width: 165px;
+	height: 210px;
+}
+
+.drustvene_mreze_na_slikama {
+	margin-right: 15px;
+}
+
+.about_tekst {
+	margin-left: 0;
+	font-weight: 100;
+}
+
+.about_skills {
+	max-width: 250px;
+}
+
+#cracked_social_icons {
+	margin: auto;
+	width: 749px;
+}
+
+.cracked_social_icons {
+	margin-left: 5%;
+	height: 200px;
+}
+
+#prva_cracked_icon {
+	margin-left: 20px;
+}
+
+#projects_heading {
+	margin-bottom: 20px;
+	margin-right: 270px;
+	text-align: center;
+}
+
+#ruski_rulet_slike {
+	float: left;
+	margin-bottom: 20px;
+}
+
+.ruski_rulet_slike {
+	width: 32%;
+	max-width: 440px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.ruski_rulet_slike:first-child {
+	padding-left: 0;
+}
+
+.ruski_rulet_slike:last-child {
+	padding-right: 0;
+}
+
+#ruski_rulet_opis {
+	font-size: 21px;
+}
+
+#heading_ruski_rulet {
+	margin-left: 0;
+	margin-right: 0;
+	width: 100%;
+	max-width: 1400px;
+}
+
+#google_play_icon {
+	position: absolute;
+	top: 22%;
+	left: 60%;
+	width: 172px;
+}
+
+/* Contact Form */
+
+form {
+    width: 100%;
+    max-width: 912px;
+    margin: auto;
+    height: 270px;
+}
+
+input {
+	display: block;
+}
+
+input, textarea {
+	width: 100%;
+	max-width: 400px;
+    height:27px;
+    background:#efefef;
+    border:1px solid #dedede;
+    padding:10px;
+    margin-top:3px;
+    font-size:0.9em;
+    color:#3a3a3a;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
+
+textarea {
+	height: 183px;
+	resize:none;
+}
+
+input:focus, textarea:focus {
+    border:1px solid #97d6eb;
+}
+
+#submit {
+    width:127px;
+    height:38px;
+    color: white;
+    border: none;
+    cursor:pointer;
+	border-radius: 5px;
+	background: url('../img/hire_us_strelica.png');
+	background-repeat: no-repeat;
+	background-position: center right;
+    background-color: #ec2125;
+}
+
+#submit:hover {
+    opacity:.9;
+}
+
+.wrapping_inputs {
+	float: left;
+	margin-right: 20px;
+	margin-left: 5.1%;
+	width: 46%;
+}
+
+#class_wrapping_inputs {
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.seo_label {
+	display: none;
+}
+
+/*Footer */
+footer	{
+	background-color: #231F20;
+	width: 100%;
+	height: 150px;
+	clear: both;
+	position: relative;
+	bottom: 0;
+}
+
+#projects_footer {
+	position: absolute;
+}
+
+.push{
+	height: 150px;
+	display: block;
+}
+
+#copyright {
+	text-align: center;
+}
+
+.footer_tekst {
+	color: white;
+	width: 300px;
+	margin-left: 20px;
+	padding-left: 25px;
+	margin-top: 30px;
+
+}
+
+#footer_tekst_prvi {
+	border-left: 0 ;
+	float: left;
+}
+
+#center_footer {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1200px;
+}
+
+#social{
+	text-align: center;
+}
+
+#drugi_blok{
+	position: relative;
+	float: right;
+}
+
+.drustvene_mreze:hover {
+	opacity: 0.7;
+}
+
+/* Responsive stuff  */
+
+@media screen and (max-width:2600px){
+#contact_footer {
+		margin-top: 240px;
+	}
+	
+#index_footer {
+
+}
+
+@media screen and (max-width: 1600px) {
+	.lang {
+		left: 720px;
+	}
+	
+	#contact_footer {
+		margin-top: 200px;
+	}
+}
+
+@media screen and (max-width: 1415px) {
+	header nav {
+		margin-left: 0;
+	}
+}
+
+@media screen and (max-width: 1317px) {
+	.homepage_tekst {
+		margin-left: -60px;
+	}
+
+	#google_play_icon {
+		left: 55%;
+		top:23%;
+	}
+}
+
+@media screen and (max-width: 1285px) {
+	ul li a {
+		margin-left: 25px;
+	}
+
+	.lang {
+		margin-left: 0;
+		left: 100px;
+		top: 10px;
+	}
+}
+
+@media screen and (max-width: 1257px) {
+	.homepage_tekst {
+		top: 0;
+		left: 0;
+		margin-top: -80px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.homepage_tekst_divs {
+		float: left;
+	}
+
+	#myGallery {
+		margin: auto;
+	}
+
+	#myGallery img {
+		margin: auto;
+		max-width: 700px;
+	}
+}
+
+@media screen and (max-width: 1217px) {
+
+	.ruski_rulet_slike {
+		padding-left: 0.1%;
+	}
+
+	.ruski_rulet_slike:first-child {
+		padding-left: 0;
+	}
+
+}
+
+@media screen and (max-width: 1200px) {
+	.lang {
+		left: 40px;
+	}
+
+	#web_design_slika , #web_dev_slika , #mobile_slika {
+		padding-right: 0;
+	}
+}
+
+@media screen and (max-width:1160px){
+	#google_play_icon {
+		top:26%;
+	}
+}
+@media screen and (max-width: 1125px) {
+	ul li a {
+		margin-left: 25px;
+	}
+
+	#logo {
+		margin-right: -20px;
+		background: url('../img/montecode-mobile2.png') no-repeat;
+		width: 270px;
+		margin-top: 18px;
+	}
+
+	#home {
+		margin-left: 0;
+	}
+
+	.lang {
+		left: 20px;
+	}
+
+}
+
+@media screen and (max-width: 1020px) {
+
+	.services_tekst {
+		float: none;
+		width: 45%;
+	}
+
+	.responsive_tekst {
+		float: left;
+	}
+
+	#wrapping_services_tekst {
+		height: 700px;
+	}
+
+	#services_center_main {
+		height: 1000px;
+	}
+
+	#services_heading {
+		clear: both;
+	}
+
+	#services_heading_about {
+		clear: both;
+	}
+}
+
+
+@media screen and (max-width: 995px) {
+	#logo {
+		margin-left: -38px;
+	}
+
+	#services_heading {
+		margin-top: 72px;
+	}
+
+	#services_footer {
+		margin-top: 50px;
+	}
+}
+
+@media screen and (max-width: 930px) {
+	.wrapping_inputs {
+		float: none;
+		margin: 0 auto;
+		width: 86%;
+		max-width: 400px;
+	}
+
+	#class_wrapping_inputs {
+		margin: 0 auto;
+		margin-top: 30px;
+		width: 86%;
+	}
+
+	form {
+		height: 540px;
+	}
+
+	#kontakt_heading_tekst {
+		margin-top: 0px;
+	}
+
+	
+
+	#google_play_icon {
+		left: 56%;
+		top:26%;
+	}
+}
+
+@media screen and (max-width: 855px) {
+
+	#services_heading {
+		margin-top: 122px;
+	}
+
+	#web_design_slika , #web_dev_slika , #mobile_slika {
+		padding-right: 0;
+	}
+
+	#services_footer {
+		margin-top: 120px;
+	}
+
+	#footer_about {
+		margin-top: 30px;
+	}
+}
+
+@media screen and (max-width: 818px) {
+
+	/* Navbar */
+
+	header {
+		height: auto;
+		background-color: #231F20;
+		margin-bottom: 0;
+	}
+
+	nav {
+		display: none;
+	}
+
+	nav li {
+		float: left;
+	}
+
+	ul li a {
+		line-height: 0;
+		padding-right: 60px;
+	}
+
+	#logo {
+		display: none;
+	}
+
+	#home {
+		margin-left: -35px;
+	}
+
+	#services {
+		margin-left: -35px;
+	}
+
+	#projects {
+		margin-left: -10px;
+	}
+
+	#about {
+		margin-left: -10px;
+	}
+
+	#contact {
+		margin-left: -30px;
+	}
+
+	#blog {
+		margin-left: -20px;
+		width: 50px;
+		padding-right: 0;
+	}
+	#pull {
+		display: block;
+	}
+
+	.our_projects {
+		margin-left: 0;
+	}
+
+	.heading_tekst {
+		margin-top: -40px;
+		font-size: 38px;
+	}
+
+	#kontakt_heading_tekst {
+		margin-top: -40px;
+	}
+
+	#kontakt_heading_tekst_dva {
+		margin-top: 0;
+	}
+
+	#mobile_montecode {
+		margin-left: 25%;
+	}
+
+	.lang {
+		display: none;
+	}
+
+	#services_heading {
+		width: 653px;
+	}
+
+	#center_main {
+		margin-top: -67px;
+	}
+
+	#footer_about {
+		margin-top: 60px;
+	}
+
+	.drustvene_mreze_na_slikama:last-child {
+		margin-right: 0;
+	}
+
+	#google_play_icon {
+		top: 12%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+
+	#cracked_social_icons {
+		width: 100%;
+		max-width: 621px;
+		height: 100%;
+		max-height: 200px;
+	}
+
+	.cracked_social_icons {
+		width: 92%;
+		max-width: 200px;
+		height: 100%;
+		max-height: 200px;
+		margin-left: 8%;
+	}
+
+	#prva_cracked_icon {
+		margin-left: 5%;
+	}
+
+	.float_cracked_icons {
+		display: inline-block;
+		width: 30%;
+		max-width: 200px;
+		height: 30%;
+		max-height: 200px;
+	}
+
+	#services_footer {
+		margin-top: 140px;
+	}
+
+	#footer_about {
+		margin-top: 90px;
+	}
+
+	.ruski_rulet_slike {
+		width: 47%;
+		max-width: 330px;
+	}
+
+	#projects_footer {
+		margin-bottom: -300px;
+	}
+}
+
+@media screen and (max-width: 715px) {
+	#footer_tekst_prvi {
+		width: 250px;
+	}
+
+	#drugi_blok {
+		width: 130px;
+		margin-left: 0;
+		padding: 0;
+		margin-right: 10px;
+	}
+
+	#services_heading {
+		margin-top: 162px;
+		width: 530px;
+	}
+
+	#services_center_main {
+		height: 950px;
+	}
+
+	#services_footer {
+		margin-top: 200px;
+	}
+
+	#footer_about {
+		margin-top: 140px;
+	}
+
+}
+
+@media screen and (max-width: 670px) {
+	.responsive_tekst {
+		float: none;
+	}
+
+	.services_tekst {
+		width: 70%;
+		margin-left: 15%;
+	}
+
+	#services_center_main {
+		height: 1320px;
+	}
+
+	#services_heading {
+		position: relative;
+		top: 220px;
+	}
+
+	#contact_footer {
+		margin-top: 130px;
+	}
+
+	#services_footer {
+		margin-top: 345px;
+	}
+
+	#index_footer {
+		top: 0;
+	}
+
+	#footer_about {
+		margin-top: 530px;
+	}
+
+	.slike_tekst {
+		width: 245px;
+	}
+
+	#projects_footer {
+		margin-bottom: -300px;
+	}
+}
+
+@media screen and (max-width: 643px) {
+	.homepage_tekst {
+		margin-top: -120px;
+	}
+
+	#index_footer {
+		top: 20px;
+	}
+
+
+}
+
+@media screen and (max-width: 603px) {
+
+	#home, #services,#projects,#about,#contact,#blog {
+		margin-left: 0;
+	}
+
+	#mobile_montecode {
+		margin-left: 10%;
+	}
+
+	#footer_tekst_prvi {
+		margin-left: 5px;
+		padding-left: 0;
+	}
+	.heading_tekst {
+		margin-left: 0;
+	}
+
+	.slike_tekst {
+		width: 193px;
+	}
+
+	#dr_na_slikama_tri {
+		padding-bottom: 7px;
+	}
+
+	.homepage_tekst {
+		margin-top: -170px;
+	}
+	#index_footer {
+		top: 0px;
+	}
+
+	#projects_heading {
+		text-align: left;
+		margin-right: 0;
+	}
+
+	#google_play_icon {
+		top:16%;
+		margin-right: 0;
+	}
+}
+
+@media screen and (max-width: 557px) {
+
+	#services_center_main {
+		height: 1220px;
+	}
+
+	#services_heading {
+		top: 260px;
+	}
+
+	#wrapping_services_tekst {
+		height: 730px;
+	}
+
+	.homepage_tekst {
+		margin-top: -200px;
+	}
+
+	#services_footer {
+		margin-top: 410px;
+	}
+
+	#google_play_icon {
+		top:16%
+	}
+
+	.ruski_rulet_slike {
+		width: 95%;
+		max-width: 400px;
+		margin-left: 8%;
+	}
+
+	#footer_about {
+		margin-top: 650px;
+	}
+
+	#projects_footer {
+		margin-bottom: -700px;
+	}
+}
+
+@media screen and (max-width: 515px) {
+
+	#services_center_main {
+		height: 1260px;
+	}
+
+	#wrapping_services_tekst {
+		height: 760px;
+	}
+
+	.homepage_tekst {
+		margin-top: -240px;
+	}
+
+	#index_footer {
+		top: 20px;
+	}
+
+	#services_footer {
+		margin-top: 440px;
+	}
+
+	#projects_heading {
+		text-align: center;
+	}
+
+	#google_play_icon {
+		position: relative;
+		left: 0;
+		margin: 0 auto;
+		display: block;
+	}
+
+	#contact_footer {
+		margin-top: 260px;
+	}
+
+	#projects_footer {
+		margin-bottom: -800px;
+	}
+}
+
+@media screen and (max-width: 481px) {
+	#services_center_main {
+		height: 1350px;
+	}
+
+	#services_heading {
+		margin-top: 255px;
+	}
+
+	input {
+		width: 100%;
+		max-width: 400px;
+	}
+
+	.slike_tekst {
+		margin: auto;
+		width: 100%;
+		height: 425px;
+	}
+
+	.about_slike {
+		display: block;
+		margin: auto;
+		padding-right: 90px;
+	}
+
+	.about_imena {
+		width: 255px;
+		margin: auto;
+	}
+
+	.about_skills {
+		margin: auto;
+	}
+
+	.about_tekst {
+		margin-left: auto;
+		margin-right: auto;
+		width: 255px;
+	}
+
+	.dr_na_slikama {
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 20px;
+		width: 255px;
+	}
+
+	.homepage_tekst {
+		margin-top: -290px;
+	}
+
+	#index_footer {
+		top: 250px;
+	}
+
+	#services_footer {
+		margin-top: 530px;
+	}
+
+	.ruski_rulet_slike {
+		margin-left: 2%;
+	}
+
+	#footer_about {
+		margin-top: 1050px;
+	}
+
+	#projects_footer {
+		margin-bottom: -900px;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	#mobile_montecode {
+		margin-left: 0;
+	}
+
+	footer {
+		width: 100%;
+		height: 230px;
+	}
+
+	#contact_footer {
+		margin-top: 160px;
+	}
+
+	#footer_tekst_prvi {
+		padding-top: 10px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		float: none;
+	}
+
+	#drugi_blok {
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+
+	#services_heading {
+		margin-top: 275px;
+	}
+
+	.homepage_tekst {
+		margin-top: -360px;
+	}
+	#index_footer {
+		top: 200px;
+	}
+
+	#services_footer {
+		margin-top: 560px;
+	}
+
+	#projects_footer {
+		margin-bottom: -1000px;
+	}
+}
+
+@media screen and (max-width: 392px) {
+
+	#services_center_main {
+		height: 1360px;
+	}
+
+	#services_heading {
+		margin-top: 300px;
+	}
+
+	.services_tekst {
+		margin-left: 1%;
+		width: 90%;
+	}
+
+	#services_footer {
+		margin-top: 615px;
+	}
+
+	#footer_about {
+		margin-top: 1100px;
+	}
+
+	#projects_footer {
+		margin-bottom: -1050px;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	#mobile_montecode {
+		width: 250px;
+	}
+
+	#footer_tekst_prvi {
+		text-align: center;
+	}
+
+	footer {
+		width: 100%;
+		height: 230px;
+	}
+
+	#contact_footer {
+		margin-top: 160px;
+	}
+
+	#services_footer {
+		margin-top: 675px;
+	}
+
+	#footer_about {
+		margin-top: 1200px;
+	}
+
+	#services_heading {
+		margin-top: 305px;
+	}
+
+	#hire_us {
+		margin-left: 5px;
+	}
+ 	.wrapping_inputs {
+ 		margin-left: 5px;
+ 	}
+
+ 	#class_wrapping_inputs {
+ 		margin-left: 5px;
+ 	}
+
+ 	.homepage_tekst {
+		margin-top: -400px;
+	}
+
+	#index_footer {
+		top: 300px;
+	}
+
+	#projects_footer {
+		margin-bottom: -1100px;
+	}
+}

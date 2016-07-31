@@ -1,0 +1,49 @@
+body{
+	background-color: silver;
+	font-family: 'Ubuntu';
+}
+
+#login-box{
+	background-color: black;
+	padding: 10px;
+	width: 350px;
+	height: 300px;
+	margin: 0 auto;
+	margin-top: 150px;
+}
+
+#errors{
+	background-color: black;
+	text-align: center;
+	width: 370px;
+	margin-left: -10px;
+	position: absolute;
+}
+
+table{
+	margin-left: 40px;
+}
+
+label{
+	color: white;
+	
+	font-size: 20px;
+}
+
+img{
+	
+	padding: 40px;
+}
+
+input{
+	height: 30px;
+	width: 130px;
+}
+
+input:focus{
+	outline-color: green;
+}
+
+p{
+	color: red;
+}
